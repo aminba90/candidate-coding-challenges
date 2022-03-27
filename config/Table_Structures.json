@@ -1,0 +1,77 @@
+
+[
+    {
+       
+        "tableName": [
+            "users","courses","certificates"
+        ],
+        "tableColumn": [
+            [
+                {
+                    "type": "String",
+                    "title": "id",
+                    "primary":"true"
+                },
+                {
+                    "type": "String",
+                    "title": "email",
+                    "primary":"false"
+                },
+                {
+                    "type": "String",
+                    "title": "firstName",
+                    "primary":"false"
+                },
+                {
+                    "type": "String",
+                    "title": "lastName",
+                    "primary":"false"
+                }
+            ],
+            [
+                {
+                    "type": "String",
+                    "title": "id",
+                    "primary":"true"
+                },
+                {
+                    "type": "String",
+                    "title": "title",
+                    "primary":"false"
+                },
+                {
+                    "type": "String",
+                    "title": "description",
+                    "primary":"false"
+                },
+                {
+                    "type": "DateTime",
+                    "title": "publishedAt",
+                    "primary":"false"
+                }
+            ],
+            [
+                {
+                    "type": "String",
+                    "title": "course",
+                    "primary":"true"
+                },
+                {
+                    "type": "String",
+                    "title": "user",
+                    "primary":"true"
+                },
+                {
+                    "type": "DateTime",
+                    "title": "completedDate",
+                    "primary":"true"
+                },
+                {
+                    "type": "DateTime",
+                    "title": "startDate",
+                    "primary":"true"
+                }
+            ]
+        ]
+    }
+]

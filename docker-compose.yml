@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  app:
+    container_name: perseus-assignment
+    build: .
+    stdin_open: true
+    environment: 
+            DISPLAY: $DISPLAY
+    depends_on:
+      - sqlite3
+    tty: true
+    volumes:
+      - .:/assignment
+  sqlite3:
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db/
