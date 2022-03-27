@@ -12,7 +12,7 @@ queries:
   2- average amount of users time spent in a course</br>
   3- average amount of users time spent for each course individually</br>
   4- report of fastest vs. slowest users completing a course</br>
-  5- amount of certificates per customer</br>/br></br>
+  5- amount of certificates per customer</br></br></br>
 <h3>
 Extra Details:
   </h3>
