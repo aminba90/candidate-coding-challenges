@@ -4,7 +4,7 @@ HOW TO RUN THE SOLUTION:
 
 1- you just need to run "docker-compose up -d" in order to create docker containers.</br>
 2- you can execute "docker exec -it perseus-assignment bash" to be able to excute command inside docker container.</br>
-3- you should execute command inside docker container like : "python3 src/MyAssignment.py [desired_dbname] ["yes" <<if you want to create tables for provided input files>>|"no"] ["yes" <<if you want to insert records into created tables>>|"no"] [number of query which you want it's result to be displayed ] ex. "python3 src/MyAssignment.py mydb yes yes 1".</br></br></br>
+3- you should execute command inside docker container like : "python3 src/MyAssignment.py [desired_dbname] ["yes" ,if you want to create tables for provided input files|"no"] ["yes",if you want to insert records into created tables|"no"] [number of query which you want it's result to be displayed ] ex. "python3 src/MyAssignment.py mydb yes yes 1".</br></br></br>
 <h3>
 queries:
   </h3>
